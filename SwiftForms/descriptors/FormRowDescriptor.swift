@@ -39,6 +39,7 @@ public final class FormRowDescriptor {
         case slider
         case multipleSelector
         case multilineText
+        case multipleEmails
     }
     
     public struct CellConfiguration {

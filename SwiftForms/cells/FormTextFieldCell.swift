@@ -101,6 +101,10 @@ open class FormTextFieldCell: FormBaseCell {
             case .password:
                 textField.isSecureTextEntry = true
                 textField.clearsOnBeginEditing = false
+            case .multipleEmails:
+                textField.autocorrectionType = .no
+                textField.autocapitalizationType = .none
+                textField.keyboardType = .twitter
             default:
                 break
         }

@@ -36,6 +36,7 @@ open class FormViewController : UITableViewController {
             FormViewController.defaultCellClasses[.slider] = FormSliderCell.self
             FormViewController.defaultCellClasses[.multipleSelector] = FormSelectorCell.self
             FormViewController.defaultCellClasses[.multilineText] = FormTextViewCell.self
+            FormViewController.defaultCellClasses[.multipleEmails] = FormTextViewCell.self
         }()
     
     // MARK: Class variables
